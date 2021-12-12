@@ -114,6 +114,7 @@ var quotes = [
 ];
 var savedPosters = [];
 var currentPoster;
+
 window.addEventListener('load', getRandomPoster);
 randomizeButton.addEventListener('click', getRandomPoster);
 formButton.addEventListener('click', showPosterForm);
